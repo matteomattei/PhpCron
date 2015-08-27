@@ -26,7 +26,7 @@ PHP_CRON
 
  1. Copy the folder on your Web server.
  2. Make sure to set write permission on ```logs``` folder.
- 3. Set path and parameters in ```runner.php```
+ 3. Set PHP path in ```runner.php``` in case your php binary is not located in /usr/bin/.
  4. Add ```include('/path/to/PhpCron/runner.php')``` in a place of your scripts that is often executed (maybe in a login?!)
  5. Setup ```php_cron.ini``` file to customize and configure your cronjobs
 
